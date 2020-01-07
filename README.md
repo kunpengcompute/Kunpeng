@@ -1,2 +1,2 @@
 # Kunpeng
-Welcome to Kunpeng compute comunity.
+Welcome to Kunpeng compute community.
