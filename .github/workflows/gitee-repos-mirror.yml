@@ -1,0 +1,22 @@
+name: Gitee repos mirror periodic job
+
+on:
+  schedule:
+    # Runs at 01:00 UTC (9:00 AM Beijing) every day
+    - cron:  '0 1 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Mirror the Github organization repos to Gitee.
+      uses: Yikun/gitee-mirror-action@v0.01
+      with:
+        # private SSH key
+        private_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        # org name in Github. Such as `kunpengcompute`.
+        github_org: kunpengcompute
+        # org name in Gitee. Such as `kunpengcompute`.
+        gitee_org: kunpengcompute
