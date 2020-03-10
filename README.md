@@ -11,7 +11,7 @@ Welcome to Kunpeng compute community.
 | [KAEdriver](https://github.com/kunpengcompute/KAEdriver) | The driver of Kunpeng Accelerator Engine (KAE). | @mystery-nobody |
 | [KAEzip](https://github.com/kunpengcompute/KAEzip) | A high-performance hardware accelerator for compression/uncompression algorithm library of zlib based on Kunpeng processor | @mystery-nobody |
 | [gzip](https://github.com/kunpengcompute/gzip) | The GNU Gzip with Kunpeng optimization. | @derekpush |
-| [AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) | Simplify Avx to ARM Neon porting | @derekpush |
+| [AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) | Simplify Avx to ARM Neon porting | @gd321 |
 | [Snappy](https://github.com/kunpengcompute/Snappy) | A fast compressor/decompressor with Kunpeng optimization. | @derekpush |
 | [zstd](https://github.com/kunpengcompute/zstd) | Zstandard - Fast real-time compression algorithm with Kunpeng optimization. | @derekpush |
 
