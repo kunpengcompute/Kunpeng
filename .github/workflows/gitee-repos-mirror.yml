@@ -18,7 +18,7 @@ jobs:
       uses: actions/cache@v1
       with:
         path: /home/runner/work/Kunpeng/Kunpeng/kunpeng-cache
-        key: ${{ runner.os }}-openeuler-repos-cache
+        key: ${{ runner.os }}-kunpeng-repos-cache
 
     - name: Mirror the Github organization repos to Gitee.
       uses: Yikun/hub-mirror-action@v0.05
