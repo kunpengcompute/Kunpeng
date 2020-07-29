@@ -23,7 +23,7 @@ jobs:
         key: ${{ runner.os }}-kunpeng-repos-cache
 
     - name: Mirror the Github organization repos to Gitee.
-      uses: Yikun/hub-mirror-action@v0.07
+      uses: Yikun/hub-mirror-action@v0.08
       with:
         src: github/kunpengcompute
         dst: gitee/kunpengcompute
