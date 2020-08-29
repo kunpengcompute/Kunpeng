@@ -7,7 +7,7 @@ Welcome to Kunpeng compute community.
 | --- | --- | --- | --- |
 | [Kunpeng](https://github.com/kunpengcompute/Kunpeng) | The community repo for Kunpeng compute | @Yikun | yikunkero@gmail.com |
 | [Kunpeng Blog](kunpengcompute.github.io) | The tech blog for Kunpeng compute | @Yikun | yikunkero@gmail.com |
-| [rpmbuild](https://github.com/kunpengcompute/rpmbuild) | The openEuler rpm build dockerfile | yikunkero@gmail.com |
+| [rpmbuild](https://github.com/kunpengcompute/rpmbuild) | The openEuler rpm build dockerfile | @Yikun | yikunkero@gmail.com |
 | [hyperscan](https://github.com/kunpengcompute/hyperscan) | aarch64 branch for high-performance regular expression matching library | @TaiQilong | - |
 | [KAE](https://github.com/kunpengcompute/KAE) | High-performance hardware acceleration algorithm library of OpenSSL Engine based on Kunpeng processor | @mystery-nobody | - |
 | [KAEdriver](https://github.com/kunpengcompute/KAEdriver) | The driver of Kunpeng Accelerator Engine (KAE). | @mystery-nobody | - |
@@ -15,7 +15,7 @@ Welcome to Kunpeng compute community.
 | [gzip](https://github.com/kunpengcompute/gzip) | The GNU Gzip with Kunpeng optimization. | @derekpush | - |
 | [AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) | Simplify Avx to ARM Neon porting | @gd321 | - |
 | [Snappy](https://github.com/kunpengcompute/Snappy) | A fast compressor/decompressor with Kunpeng optimization. | @derekpush | - |
-| [hive-apache-ci](https://github.com/kunpengcompute/hive-apache-ci) | The source code of Apache Hive CI | zhengzhenyulixi@gmail.com |
+| [hive-apache-ci](https://github.com/kunpengcompute/hive-apache-ci) | The source code of Apache Hive CI | @zhengzhenyu | zhengzhenyulixi@gmail.com |
 | [kunpeng-mpam](https://github.com/kunpengcompute/kunpeng-mpam) | - | - |
 | [hucx](https://github.com/kunpengcompute/hucx) | - | - |
 | [hmpi](https://github.com/kunpengcompute/hmpi) | - | - |
