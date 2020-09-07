@@ -24,7 +24,7 @@ Welcome to Kunpeng compute community.
 | [ovs](https://github.com/kunpengcompute/ovs) | - | - |
 | [dpdk](https://github.com/kunpengcompute/ovs) | - | - |
 | [mysql-server](https://github.com/kunpengcompute/mysql-server) | - | - |
-
+| [Spark-ml-algo-lib](https://github.com/kunpengcompute/Spark-ml-algo-lib) | The open source code of KAL machine learning | @Jutao-liu | 728972687@qq.com |
 ## Contact
 If you have questions or comments, we encourage you to create an issue on Github. If you wish to contact the Kunpeng compute team directly, you can also send email to kunpengcompute@huawei.com.
 
