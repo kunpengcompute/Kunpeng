@@ -26,7 +26,7 @@ Welcome to Kunpeng compute community.
 | [mysql-server](https://github.com/kunpengcompute/mysql-server) | - | - |
 | [Spark-graph-algo-lib](https://github.com/kunpengcompute/Spark-graph-algo-lib) | Then open source code of KAL graph |@XiaoqiMa | xiaoqima2013@gmail.com |
 | [Spark-ml-algo-lib](https://github.com/kunpengcompute/Spark-ml-algo-lib) | The open source code of KAL machine learning | @Jutao-liu | 728972687@qq.com |
-| [Hadoop-Ceph](https://github.com/kunpengcompute/Hadoop-Ceph) | Using Ceph instead of HDFS as the storage system of Hadoop | @MacChen02 | chenqiang2080@163.com |
+| [hadoop-fs-ceph](https://github.com/kunpengcompute/hadoop-fs-ceph) | Using Ceph instead of HDFS as the storage system of Hadoop | @MacChen02 | chenqiang2080@163.com |
 
 ## Contact
 If you have questions or comments, we encourage you to create an issue on Github. If you wish to contact the Kunpeng compute team directly, you can also send email to kunpengcompute@huawei.com.
