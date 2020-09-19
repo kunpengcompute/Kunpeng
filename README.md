@@ -22,7 +22,6 @@ Welcome to Kunpeng compute community.
 | [HW265](https://github.com/kunpengcompute/HW265) | - | - |
 | [kunpengacclibdict](https://github.com/kunpengcompute/kunpengacclibdict) | - | - |
 | [ovs](https://github.com/kunpengcompute/ovs) | - | - |
-| [dpdk](https://github.com/kunpengcompute/ovs) | - | - |
 | [mysql-server](https://github.com/kunpengcompute/mysql-server) | - | - |
 | [Spark-graph-algo-lib](https://github.com/kunpengcompute/Spark-graph-algo-lib) | Then open source code of KAL graph |@XiaoqiMa | xiaoqima2013@gmail.com |
 | [Spark-ml-algo-lib](https://github.com/kunpengcompute/Spark-ml-algo-lib) | The open source code of KAL machine learning | @Jutao-liu | 728972687@qq.com |
