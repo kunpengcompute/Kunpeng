@@ -20,7 +20,7 @@ Welcome to Kunpeng compute community.
 | [hucx](https://github.com/kunpengcompute/hucx) | - | - |
 | [hmpi](https://github.com/kunpengcompute/hmpi) | - | - |
 | [HW265](https://github.com/kunpengcompute/HW265) | - | - |
-| [kunpengacclibdict](https://github.com/kunpengcompute/kunpengacclibdict) | - | - |
+| [kunpengacclibdict](https://github.com/kunpengcompute/kunpengacclibdict) | A dictionary file containing discriptions of existing libraries in Kunpeng Acceleration Lib, provide contents for toolchain updating. | @Keguanghao | gh_ke1990@163.com
 | [ovs](https://github.com/kunpengcompute/ovs) | The acceleration of Openvswitch datapath with Kunpeng optimization | @jizhoyou | liujizhou@126.com|
 | [mysql-server](https://github.com/kunpengcompute/mysql-server) | The MySQL server with Arm64 optimization | @bzhaoopenstack | bzhaojyathousandy@gmail.com |
 | [Spark-graph-algo-lib](https://github.com/kunpengcompute/Spark-graph-algo-lib) | Then open source code of KAL graph |@XiaoqiMa | xiaoqima2013@gmail.com |
