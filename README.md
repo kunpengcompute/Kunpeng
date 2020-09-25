@@ -8,7 +8,7 @@ Welcome to Kunpeng compute community.
 | [Kunpeng](https://github.com/kunpengcompute/Kunpeng) | The community repo for Kunpeng compute | @Yikun | yikunkero@gmail.com |
 | [Kunpeng Blog](kunpengcompute.github.io) | The tech blog for Kunpeng compute | @Yikun | yikunkero@gmail.com |
 | [rpmbuild](https://github.com/kunpengcompute/rpmbuild) | The openEuler rpm build dockerfile | @Yikun | yikunkero@gmail.com |
-| [hyperscan](https://github.com/kunpengcompute/hyperscan) | aarch64 branch for high-performance regular expression matching library | @TaiQilong | - |
+| [hyperscan](https://github.com/kunpengcompute/hyperscan) | aarch64 branch for high-performance regular expression matching library | @minqian | wangminqian@huawei.com |
 | [KAE](https://github.com/kunpengcompute/KAE) | High-performance hardware acceleration algorithm library of OpenSSL Engine based on Kunpeng processor | @mystery-nobody | - |
 | [KAEdriver](https://github.com/kunpengcompute/KAEdriver) | The driver of Kunpeng Accelerator Engine (KAE). | @mystery-nobody | - |
 | [KAEzip](https://github.com/kunpengcompute/KAEzip) | A high-performance hardware accelerator for compression/uncompression algorithm library of zlib based on Kunpeng processor | @mystery-nobody | - |
