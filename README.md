@@ -9,9 +9,9 @@ Welcome to Kunpeng compute community.
 | [Kunpeng Blog](kunpengcompute.github.io) | The tech blog for Kunpeng compute | @Yikun | yikunkero@gmail.com |
 | [rpmbuild](https://github.com/kunpengcompute/rpmbuild) | The openEuler rpm build dockerfile | @Yikun | yikunkero@gmail.com |
 | [hyperscan](https://github.com/kunpengcompute/hyperscan) | aarch64 branch for high-performance regular expression matching library | @minqian | wangminqian@huawei.com |
-| [KAE](https://github.com/kunpengcompute/KAE) | High-performance hardware acceleration algorithm library of OpenSSL Engine based on Kunpeng processor | @mystery-nobody | - |
-| [KAEdriver](https://github.com/kunpengcompute/KAEdriver) | The driver of Kunpeng Accelerator Engine (KAE). | @mystery-nobody | - |
-| [KAEzip](https://github.com/kunpengcompute/KAEzip) | A high-performance hardware accelerator for compression/uncompression algorithm library of zlib based on Kunpeng processor | @mystery-nobody | - |
+| [KAE](https://github.com/kunpengcompute/KAE) | High-performance hardware acceleration algorithm library of OpenSSL Engine based on Kunpeng processor | @yuhongxiao123456 | yuhongxiao12345@163.com |
+| [KAEdriver](https://github.com/kunpengcompute/KAEdriver) | The driver of Kunpeng Accelerator Engine (KAE). | @yuhongxiao123456 | yuhongxiao12345@163.com |
+| [KAEzip](https://github.com/kunpengcompute/KAEzip) | A high-performance hardware accelerator for compression/uncompression algorithm library of zlib based on Kunpeng processor | @yuhongxiao123456 | yuhongxiao12345@163.com |
 | [gzip](https://github.com/kunpengcompute/gzip) | The GNU Gzip with Kunpeng optimization. | @derekpush | kunpengcompute@huawei.com |
 | [AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) | Simplify Avx to ARM Neon porting | @gd321 | kunpengcompute@huawei.com |
 | [Snappy](https://github.com/kunpengcompute/Snappy) | A fast compressor/decompressor with Kunpeng optimization. | @derekpush | kunpengcompute@huawei.com |
