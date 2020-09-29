@@ -12,9 +12,9 @@ Welcome to Kunpeng compute community.
 | [KAE](https://github.com/kunpengcompute/KAE) | High-performance hardware acceleration algorithm library of OpenSSL Engine based on Kunpeng processor | @mystery-nobody | - |
 | [KAEdriver](https://github.com/kunpengcompute/KAEdriver) | The driver of Kunpeng Accelerator Engine (KAE). | @mystery-nobody | - |
 | [KAEzip](https://github.com/kunpengcompute/KAEzip) | A high-performance hardware accelerator for compression/uncompression algorithm library of zlib based on Kunpeng processor | @mystery-nobody | - |
-| [gzip](https://github.com/kunpengcompute/gzip) | The GNU Gzip with Kunpeng optimization. | @derekpush | - |
+| [gzip](https://github.com/kunpengcompute/gzip) | The GNU Gzip with Kunpeng optimization. | @derekpush | kunpengcompute@huawei.com |
 | [AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) | Simplify Avx to ARM Neon porting | @gd321 | kunpengcompute@huawei.com |
-| [Snappy](https://github.com/kunpengcompute/Snappy) | A fast compressor/decompressor with Kunpeng optimization. | @derekpush | - |
+| [Snappy](https://github.com/kunpengcompute/Snappy) | A fast compressor/decompressor with Kunpeng optimization. | @derekpush | kunpengcompute@huawei.com |
 | [hive-apache-ci](https://github.com/kunpengcompute/hive-apache-ci) | The source code of Apache Hive CI | @zhengzhenyu | zhengzhenyulixi@gmail.com |
 | [kunpeng-mpam](https://github.com/kunpengcompute/kunpeng-mpam) | - | - |
 | [hucx](https://github.com/kunpengcompute/hucx) | - | - |
