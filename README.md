@@ -17,8 +17,8 @@ Welcome to Kunpeng compute community.
 | [Snappy](https://github.com/kunpengcompute/Snappy) | A fast compressor/decompressor with Kunpeng optimization. | @derekpush | kunpengcompute@huawei.com |
 | [hive-apache-ci](https://github.com/kunpengcompute/hive-apache-ci) | The source code of Apache Hive CI | @zhengzhenyu | zhengzhenyulixi@gmail.com |
 | [kunpeng-mpam](https://github.com/kunpengcompute/kunpeng-mpam) | - | - |
-| [hucx](https://github.com/kunpengcompute/hucx) | - | - |
-| [hmpi](https://github.com/kunpengcompute/hmpi) | - | - |
+| [hucx](https://github.com/kunpengcompute/hucx) | hucx is based on open ucx 1.6.0 and provides improved algorithms for bcast, allreduce and barrier. | @nsosnsos | nsosnsos@gmail.com
+| [hmpi](https://github.com/kunpengcompute/hmpi) | hmpi is based on open mpi 4.0.3 and provides collective component ucx which could work with hucx. | @nsosnsos | nsosnsos@gmail.com
 | [HW265](https://github.com/kunpengcompute/HW265) | A high-performance H.265/HEVC video encoder | @suyimeng | yimeng.su@huawei.com
 | [kunpengacclibdict](https://github.com/kunpengcompute/kunpengacclibdict) | A dictionary file containing discriptions of existing libraries in Kunpeng Acceleration Lib, provide contents for toolchain updating. | @Keguanghao | gh_ke1990@163.com
 | [ovs](https://github.com/kunpengcompute/ovs) | The acceleration of Openvswitch datapath with Kunpeng optimization | @jizhoyou | liujizhou@126.com|
