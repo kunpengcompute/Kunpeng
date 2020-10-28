@@ -31,3 +31,4 @@ jobs:
         dst_token:  ${{ secrets.GITEE_TOKEN }}
         account_type: org
         cache_path: /github/workspace/kunpeng-cache
+        force_update: true 
