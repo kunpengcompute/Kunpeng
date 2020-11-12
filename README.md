@@ -28,7 +28,7 @@ Welcome to Kunpeng compute community.
 | [hadoop-fs-ceph](https://github.com/kunpengcompute/hadoop-fs-ceph) | Using Ceph instead of HDFS as the storage system of Hadoop | @MacChen02 |
 | [kernel-alt](https://github.com/kunpengcompute/kernel-alt) | The pvsched optimization of kernel-alt | solar-hu |
 | [qemu](https://github.com/kunpengcompute/qemu) | The vm smt support of qemu | solar-hu |
-| [ceph](https://github.com/kunpengcompute/ceph) | Ceph with Kunpeng optimization | @qinghaixiang |
+| [ceph](https://github.com/kunpengcompute/ceph) | Ceph with Kunpeng optimization | @qinghaixiang @aixiaorenzhe |
 ## Contact
 If you have questions or comments, we encourage you to create an issue on Github. If you wish to contact the Kunpeng compute team directly, you can also send email to kunpengcompute@huawei.com.
 
