@@ -22,7 +22,7 @@ Welcome to Kunpeng compute community.
 | [HW265](https://github.com/kunpengcompute/HW265) | A high-performance H.265/HEVC video encoder | @suyimeng |
 | [kunpengacclibdict](https://github.com/kunpengcompute/kunpengacclibdict) | A dictionary file containing discriptions of existing libraries in Kunpeng Acceleration Lib, provide contents for toolchain updating. | @Keguanghao |
 | [ovs](https://github.com/kunpengcompute/ovs) | The acceleration of Openvswitch datapath with Kunpeng optimization | @jizhoyou |
-| [mysql-server](https://github.com/kunpengcompute/mysql-server) | The MySQL server with Arm64 optimization | @bzhaoopenstack |
+| [mysql-server](https://github.com/kunpengcompute/mysql-server) | The MySQL server with Arm64 optimization | @liuwei-ck @zwang28 |
 | [Spark-graph-algo-lib](https://github.com/kunpengcompute/Spark-graph-algo-lib) | Then open source code of KAL graph |@XiaoqiMa |
 | [Spark-ml-algo-lib](https://github.com/kunpengcompute/Spark-ml-algo-lib) | The open source code of KAL machine learning | @Jutao-liu |
 | [hadoop-fs-ceph](https://github.com/kunpengcompute/hadoop-fs-ceph) | Using Ceph instead of HDFS as the storage system of Hadoop | @MacChen02 |
