@@ -33,3 +33,5 @@ jobs:
         cache_path: /github/workspace/kunpeng-cache
         timeout: 600
         force_update: true
+        static_list: "ceph"
+        debug: true 
