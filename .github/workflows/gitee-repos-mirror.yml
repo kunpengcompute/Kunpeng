@@ -23,7 +23,7 @@ jobs:
         key: ${{ runner.os }}-kunpeng-repos-cache
 
     - name: Mirror the Github organization repos to Gitee.
-      uses: Yikun/hub-mirror-action@master
+      uses: Yikun/hub-mirror-action@v0.12
       with:
         src: github/kunpengcompute
         dst: gitee/kunpengcompute
@@ -33,5 +33,4 @@ jobs:
         cache_path: /github/workspace/kunpeng-cache
         timeout: 600
         force_update: true
-        static_list: "ceph"
-        debug: true 
+        black_list: "mysql-server"
