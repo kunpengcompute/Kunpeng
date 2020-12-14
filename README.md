@@ -32,6 +32,7 @@ Welcome to Kunpeng compute community.
 | [ceph](https://github.com/kunpengcompute/ceph) | Ceph with Kunpeng optimization | @qinghaixiang @aixiaorenzhe |
 | [robox](https://github.com/kunpengcompute/robox) | The robox is a container-based solution that can run multiple Android instances on Kunpeng servers. | @feijianqiang-wind @Bessel-Native @ZhaoPengyuan-suffix @wanglei0421 |
 | [KunpengSecL](https://github.com/kunpengcompute/kunpengsecl) | This project will collect, port, adapt, design and develop basic security software components running on Kunpeng processors such as security libraries, security middle wares, security tools, enabling Kunpeng security community and developers. | @gwei3 @wucaijun2001 |
+| [devkitdict](https://github.com/kunpengcompute/devkitdict) | The project is used to store the operating system list file for the plugin code to obtain the updated operating system list in real time. | @wenhao2017 |
 | [devkitdriver](https://github.com/kunpengcompute/devkitdriver) | A group of dependent drivers for DevKit. | @ganli2015 @yudi-work @chenych27 |
 | [devkitdemo](https://github.com/kunpengcompute/devkitdemo) | The demo of DevKit. | @chenych27 |
 
