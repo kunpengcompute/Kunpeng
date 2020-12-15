@@ -35,6 +35,7 @@ Welcome to Kunpeng compute community.
 | [devkitdict](https://github.com/kunpengcompute/devkitdict) | The project is used to store the operating system list file for the plugin code to obtain the updated operating system list in real time. | @wenhao2017 |
 | [devkitdriver](https://github.com/kunpengcompute/devkitdriver) | A group of dependent drivers for DevKit. | @ganli2015 @yudi-work @chenych27 |
 | [devkitdemo](https://github.com/kunpengcompute/devkitdemo) | The demo of DevKit. | @chenych27 |
+| [bcache](https://github.com/kunpengcompute/bcache) | bcache is a modified bcache module that is used with Kunpeng Smart Storage IO Acceleration Library | @bensongchao1989 |
 
 ## Contact
 If you have questions or comments, we encourage you to create an issue on Github. If you wish to contact the Kunpeng compute team directly, you can also send email to kunpengcompute@huawei.com.
