@@ -26,5 +26,6 @@ jobs:
         dst_token:  ${{ secrets.GITEE_TOKEN }}
         account_type: org
         timeout: 600
+        debug: true
         force_update: true
         black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io"
