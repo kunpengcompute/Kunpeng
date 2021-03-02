@@ -16,11 +16,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Cache kunpengcompute src repos
-      uses: actions/cache@v1
-      with:
-        path: /home/runner/work/Kunpeng/Kunpeng/kunpeng-cache
-        key: ${{ runner.os }}-kunpeng-repos-cache
 
     - name: Mirror the Github organization repos to Gitee.
       uses: Yikun/hub-mirror-action@python
@@ -30,7 +25,6 @@ jobs:
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token:  ${{ secrets.GITEE_TOKEN }}
         account_type: org
-        cache_path: /github/workspace/kunpeng-cache
         timeout: 600
         force_update: true
         black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io"
