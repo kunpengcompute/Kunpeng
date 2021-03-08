@@ -18,7 +18,7 @@ jobs:
     steps:
 
     - name: Mirror the Github organization repos to Gitee.
-      uses: Yikun/hub-mirror-action@python
+      uses: Yikun/hub-mirror-action@v1.0
       with:
         src: github/kunpengcompute
         dst: gitee/kunpengcompute
