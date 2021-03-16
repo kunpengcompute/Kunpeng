@@ -37,6 +37,21 @@ Welcome to Kunpeng compute community.
 | [devkitdemo](https://github.com/kunpengcompute/devkitdemo) | The demo of DevKit. | @chenych27 |
 | [bcache](https://github.com/kunpengcompute/bcache) | bcache is a modified bcache module that is used with Kunpeng Smart Storage IO Acceleration Library | @bensongchao1989 |
 
+## Security
+The Kunpeng Compute community attaches great importance to the community version security. The security team of Kunpeng Compute community is responsible for receiving, investigating, and disclosing security vulnerabilities related to the community. The reported security issues or vulnerabilities will be quickly analyzed and resolved by Kunpeng Compute security team.
+
+To quickly identify and verify suspected vulnerabilities, the reporting e-mail should include but is not limited to the following content:
+
+- Basic information: including the modules affected by the vulnerability, triggering conditions of the vulnerability, and impact on the system after the vulnerability is exploited.
+- Technical details: including system configuration, fault locating method, description of exploit, POC, and method and procedure of fault reproduction.
+- Suggestions on resolving the vulnerability.
+- Organization and contact information of the vulnerability reporter.
+- Reporter's possible plan for vulnerability disclosure.
+
+You can send the potential security vulnerabilities to the e-mail of the Kunpeng Compute security team (kunpengcompute@huawei.com).
+
+We will respond to the reporting of suspected security vulnerabilities through e-mail within 48 hours and keep the reporter informed of the vulnerability handling progress.
+
 ## Contact
 If you have questions or comments, we encourage you to create an issue on Github. If you wish to contact the Kunpeng compute team directly, you can also send email to kunpengcompute@huawei.com.
 
