@@ -22,7 +22,7 @@ Welcome to the Kunpeng compute community.
 | [xucg](https://github.com/kunpengcompute/xucg) | A collective library | @nsosnsos |
 | [HW265](https://github.com/kunpengcompute/HW265) | A high-performance H.265/HEVC video encoder | @xs1994-maker |
 | [kunpengacclibdict](https://github.com/kunpengcompute/kunpengacclibdict) | A dictionary file containing descriptions of existing libraries in Kunpeng Library, providing content for toolchain updating | @Keguanghao |
-| [ovs](https://github.com/kunpengcompute/ovs) | Open vSwitch with Kunpeng optimization | @jizhoyou |
+| [ovs](https://github.com/kunpengcompute/ovs) | Open vSwitch with Kunpeng optimization | @wzc2018 |
 | [mysql-server](https://github.com/kunpengcompute/mysql-server) | MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database with Arm64 optimization | @liuwei-ck @zwang28 |
 | [Spark-graph-algo-lib](https://github.com/kunpengcompute/Spark-graph-algo-lib) | Open source code of the Kunpeng graph library |@XiaoqiMa |
 | [Spark-ml-algo-lib](https://github.com/kunpengcompute/Spark-ml-algo-lib) | Open source code of the Kunpeng machine learning library | @Jutao-liu |
