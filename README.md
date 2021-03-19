@@ -36,7 +36,7 @@ Welcome to the Kunpeng compute community.
 | [devkitdriver](https://github.com/kunpengcompute/devkitdriver) | A group of dependency drivers for DevKit | @ganli2015 @yudi-work @chenych27 |
 | [devkitdemo](https://github.com/kunpengcompute/devkitdemo) | Demo of DevKit | @chenych27 |
 | [bcache](https://github.com/kunpengcompute/bcache) | Modified bcache module that is used with Kunpeng smart storage IO acceleration library | @bensongchao1989 |
-| [kps](https://github.com/kunpengcompute/kps) | A global compression algorithm | |
+| [kps](https://github.com/kunpengcompute/kps) | Kunpeng storage | @aixiaorenzhe |
 | [zstd](https://github.com/kunpengcompute/zstd) | A fast real-time compression algorithm |  |
 | [devstack](https://github.com/kunpengcompute/devstack) | System for quickly installing an OpenStack cloud from upstream git for testing and development. The mirror of code is maintained at opendev.org. |  |
 | [hadoop](https://github.com/kunpengcompute/hadoop) | Apache Hadoop |  |
