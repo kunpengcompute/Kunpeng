@@ -1,41 +1,47 @@
 # Kunpeng
-Welcome to Kunpeng compute community.
+Welcome to the Kunpeng compute community.
 
 ## Project List
 
 | Project | Description | Liaison |
 | --- | --- | --- |
-| [Kunpeng](https://github.com/kunpengcompute/Kunpeng) | The community repo for Kunpeng compute | @Yikun |
-| [Kunpeng Blog](kunpengcompute.github.io) | The tech blog for Kunpeng compute | @Yikun |
-| [rpmbuild](https://github.com/kunpengcompute/rpmbuild) | The openEuler rpm build dockerfile | @Yikun |
-| [hyperscan](https://github.com/kunpengcompute/hyperscan) | aarch64 branch for high-performance regular expression matching library | @minqian |
-| [KAE](https://github.com/kunpengcompute/KAE) | High-performance hardware acceleration algorithm library of OpenSSL Engine based on Kunpeng processor | @yuhongxiao123456 |
-| [KAEdriver](https://github.com/kunpengcompute/KAEdriver) | The driver of Kunpeng Accelerator Engine (KAE). | @yuhongxiao123456 |
-| [KAEzip](https://github.com/kunpengcompute/KAEzip) | A high-performance hardware accelerator for compression/uncompression algorithm library of zlib based on Kunpeng processor | @yuhongxiao123456 |
-| [gzip](https://github.com/kunpengcompute/gzip) | The GNU Gzip with Kunpeng optimization. | @derekpush |
-| [AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) | Simplify Avx to ARM Neon porting | @gd321 |
-| [Snappy](https://github.com/kunpengcompute/Snappy) | A fast compressor/decompressor with Kunpeng optimization. | @derekpush |
-| [hive-apache-ci](https://github.com/kunpengcompute/hive-apache-ci) | The source code of Apache Hive CI | @zhengzhenyu |
-| [kunpeng-mpam](https://github.com/kunpengcompute/kunpeng-mpam) | Enable kunpeng mpam function  | @xinweikong |
-| [hmpi](https://github.com/kunpengcompute/hmpi) | hmpi is based on open mpi 4.0.3 and provides collective component ucx which could work with hucx. | @nsosnsos |
-| [hucx](https://github.com/kunpengcompute/hucx) | hucx is based on open ucx 1.6.0 and provides improved algorithms for bcast, allreduce and barrier. | @nsosnsos |
-| [xucg](https://github.com/kunpengcompute/xucg) | xucg is submodule of hucx, including Huawei optimized algorithms for collective operations. | @nsosnsos |
+| [Kunpeng](https://github.com/kunpengcompute/Kunpeng) | Welcome to the Kunpeng compute community. Find the right repo where you want to create an issue. | @Yikun |
+| [Kunpeng Blog](kunpengcompute.github.io) | Kunpeng Tech Blog: https://kunpengcompute.github.io/ | @Yikun |
+| [rpmbuild](https://github.com/kunpengcompute/rpmbuild) | openEuler RPM build Dockerfile | @Yikun |
+| [hyperscan](https://github.com/kunpengcompute/hyperscan) | A high-performance regular expression matching library | @minqian |
+| [KAE](https://github.com/kunpengcompute/KAE) | A high-performance hardware acceleration algorithm library of OpenSSL engine based on Kunpeng processor | @yuhongxiao123456 |
+| [KAEdriver](https://github.com/kunpengcompute/KAEdriver) | Driver for Kunpeng Accelerator Engine (KAE) | @yuhongxiao123456 |
+| [KAEzip](https://github.com/kunpengcompute/KAEzip) | A high-performance hardware accelerator for compression/decompression algorithm library of zlib based on Kunpeng processor | @yuhongxiao123456 |
+| [gzip](https://github.com/kunpengcompute/gzip) | GNU Gzip with Kunpeng optimization | @derekpush |
+| [AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) | Encapsulate the frequently used AVX instructions as independent modules to reduce repeated development workload. | @gd321 |
+| [Snappy](https://github.com/kunpengcompute/Snappy) | A fast compression/decompression library | @derekpush |
+| [hive-apache-ci](https://github.com/kunpengcompute/hive-apache-ci) | A Python script used to run Apache Hive MiniLlapLocalDriverTests in batches | @zhengzhenyu |
+| [kunpeng-mpam](https://github.com/kunpengcompute/kunpeng-mpam) | Kunpeng MPAM function | @xinweikong |
+| [hmpi](https://github.com/kunpengcompute/hmpi) | Open MPI main development repository | @nsosnsos |
+| [hucx](https://github.com/kunpengcompute/hucx) | Unified Communication X | @nsosnsos |
+| [xucg](https://github.com/kunpengcompute/xucg) | A collective library | @nsosnsos |
 | [HW265](https://github.com/kunpengcompute/HW265) | A high-performance H.265/HEVC video encoder | @xs1994-maker |
-| [kunpengacclibdict](https://github.com/kunpengcompute/kunpengacclibdict) | A dictionary file containing discriptions of existing libraries in Kunpeng Acceleration Lib, provide contents for toolchain updating. | @Keguanghao |
-| [ovs](https://github.com/kunpengcompute/ovs) | The acceleration of Openvswitch datapath with Kunpeng optimization | @jizhoyou |
-| [mysql-server](https://github.com/kunpengcompute/mysql-server) | The MySQL server with Arm64 optimization | @liuwei-ck @zwang28 |
-| [Spark-graph-algo-lib](https://github.com/kunpengcompute/Spark-graph-algo-lib) | Then open source code of KAL graph |@XiaoqiMa |
-| [Spark-ml-algo-lib](https://github.com/kunpengcompute/Spark-ml-algo-lib) | The open source code of KAL machine learning | @Jutao-liu |
-| [hadoop-fs-ceph](https://github.com/kunpengcompute/hadoop-fs-ceph) | Using Ceph instead of HDFS as the storage system of Hadoop | @MacChen02 |
-| [kernel-alt](https://github.com/kunpengcompute/kernel-alt) | The pvsched optimization of kernel-alt | solar-hu |
-| [qemu](https://github.com/kunpengcompute/qemu) | The vm smt support of qemu | solar-hu |
-| [ceph](https://github.com/kunpengcompute/ceph) | Ceph with Kunpeng optimization | @qinghaixiang @aixiaorenzhe |
-| [robox](https://github.com/kunpengcompute/robox) | The robox is a container-based solution that can run multiple Android instances on Kunpeng servers. | @feijianqiang-wind @Bessel-Native @ZhaoPengyuan-suffix @wanglei0421 |
-| [KunpengSecL](https://github.com/kunpengcompute/kunpengsecl) | This project will collect, port, adapt, design and develop basic security software components running on Kunpeng processors such as security libraries, security middle wares, security tools, enabling Kunpeng security community and developers. | @gwei3 @wucaijun2001 |
-| [devkitdict](https://github.com/kunpengcompute/devkitdict) | The project is used to store the operating system list file for the plugin code to obtain the updated operating system list in real time. | @wenhao2017 |
-| [devkitdriver](https://github.com/kunpengcompute/devkitdriver) | A group of dependent drivers for DevKit. | @ganli2015 @yudi-work @chenych27 |
-| [devkitdemo](https://github.com/kunpengcompute/devkitdemo) | The demo of DevKit. | @chenych27 |
-| [bcache](https://github.com/kunpengcompute/bcache) | bcache is a modified bcache module that is used with Kunpeng Smart Storage IO Acceleration Library | @bensongchao1989 |
+| [kunpengacclibdict](https://github.com/kunpengcompute/kunpengacclibdict) | A dictionary file containing descriptions of existing libraries in Kunpeng Library, providing content for toolchain updating | @Keguanghao |
+| [ovs](https://github.com/kunpengcompute/ovs) | Open vSwitch with Kunpeng optimization | @jizhoyou |
+| [mysql-server](https://github.com/kunpengcompute/mysql-server) | MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database with Arm64 optimization | @liuwei-ck @zwang28 |
+| [Spark-graph-algo-lib](https://github.com/kunpengcompute/Spark-graph-algo-lib) | Open source code of the Kunpeng graph library |@XiaoqiMa |
+| [Spark-ml-algo-lib](https://github.com/kunpengcompute/Spark-ml-algo-lib) | Open source code of the Kunpeng machine learning library | @Jutao-liu |
+| [hadoop-fs-ceph](https://github.com/kunpengcompute/hadoop-fs-ceph) | Ceph used as the storage system of Hadoop | @MacChen02 |
+| [kernel-alt](https://github.com/kunpengcompute/kernel-alt) | Pvsched optimization of kernel-alt | solar-hu |
+| [qemu](https://github.com/kunpengcompute/qemu) | Official QEMU mirror | solar-hu |
+| [ceph](https://github.com/kunpengcompute/ceph) | A distributed object, block, and file storage platform with Kunpeng optimization | @qinghaixiang @aixiaorenzhe |
+| [robox](https://github.com/kunpengcompute/robox) | A container-based solution that can run multiple Android instances on a Kunpeng server | @feijianqiang-wind @Bessel-Native @ZhaoPengyuan-suffix @wanglei0421 |
+| [KunpengSecL](https://github.com/kunpengcompute/kunpengsecl) | This project collects, ports, adapts, designs, and develops basic security software components running on Kunpeng processors, such as security libraries, security middleware, and security tools. | @gwei3 @wucaijun2001 |
+| [devkitdict](https://github.com/kunpengcompute/devkitdict) | It stores the operating system list file for the plugin code to obtain the updated operating system list in real time. | @wenhao2017 |
+| [devkitdriver](https://github.com/kunpengcompute/devkitdriver) | A group of dependency drivers for DevKit | @ganli2015 @yudi-work @chenych27 |
+| [devkitdemo](https://github.com/kunpengcompute/devkitdemo) | Demo of DevKit | @chenych27 |
+| [bcache](https://github.com/kunpengcompute/bcache) | Modified bcache module that is used with Kunpeng smart storage IO acceleration library | @bensongchao1989 |
+| [kps](https://github.com/kunpengcompute/kps) | A global compression algorithm | |
+| [zstd](https://github.com/kunpengcompute/zstd) | A fast real-time compression algorithm |  |
+| [devstack](https://github.com/kunpengcompute/devstack) | System for quickly installing an OpenStack cloud from upstream git for testing and development. The mirror of code is maintained at opendev.org. |  |
+| [hadoop](https://github.com/kunpengcompute/hadoop) | Apache Hadoop |  |
+| [kubernetes](https://github.com/kunpengcompute/kubernetes) | Production-grade container scheduling and management |  |
+| [arm-landscape](https://github.com/kunpengcompute/arm-landscape) | Track Arm CI landscape status for open source projects, including areas like big data, database, web, cloud, AI, etc. |  |
 
 ## Security
 The Kunpeng Compute community attaches great importance to the community version security. The security team of Kunpeng Compute community is responsible for receiving, investigating, and disclosing security vulnerabilities related to the community. The reported security issues or vulnerabilities will be quickly analyzed and resolved by Kunpeng Compute security team.
