@@ -42,6 +42,7 @@ Welcome to the Kunpeng compute community.
 | [hadoop](https://github.com/kunpengcompute/hadoop) | Apache Hadoop |  |
 | [kubernetes](https://github.com/kunpengcompute/kubernetes) | Production-grade container scheduling and management |  |
 | [arm-landscape](https://github.com/kunpengcompute/arm-landscape) | Track Arm CI landscape status for open source projects, including areas like big data, database, web, cloud, AI, etc. |  |
+| [Kbox](https://github.com/kunpengcompute/Kbox) | Android SELinux patches for the Kbox solution. | @Bessel-Native @ZhaoPengyuan-suffix @KnifeeOneOne |
 
 ## Security
 The Kunpeng Compute community attaches great importance to the community version security. The security team of Kunpeng Compute community is responsible for receiving, investigating, and disclosing security vulnerabilities related to the community. The reported security issues or vulnerabilities will be quickly analyzed and resolved by Kunpeng Compute security team.
