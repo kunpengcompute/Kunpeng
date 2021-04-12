@@ -1,15 +1,15 @@
-name: Gitee repos mirror periodic job
+name: Sync upstream Spark job
 
 on:
   pull_request:
     paths:
-    - '.github/workflows/gitee-repos-mirror.yml'
-    - '!.github/workflows/spark-sync.yaml'
+    - '.github/workflows/**'
     # Runs at every pull requests submitted in master branch 
     branches: [ master ]
   schedule:
     # Runs at 01:00 UTC (9:00 AM Beijing) every day
-    - cron:  '0 1 * * *'
+    - cron:  '0 */8 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,12 +21,12 @@ jobs:
     - name: Mirror the Github organization repos to Gitee.
       uses: Yikun/hub-mirror-action@v1.0
       with:
-        src: github/kunpengcompute
-        dst: gitee/kunpengcompute
-        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-        dst_token:  ${{ secrets.GITEE_TOKEN }}
+        src: github/apache
+        dst: github/kunpengcompute
+        dst_key: ${{ secrets.HUB_PRIVATE_KEY }}
+        dst_token:  ${{ secrets.GITHUB_TOKEN }}
         account_type: org
         timeout: 600
         debug: true
         force_update: true
-        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io"
+        static_list: "spark,spark-website"
