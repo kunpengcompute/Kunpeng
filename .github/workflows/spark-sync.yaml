@@ -8,7 +8,7 @@ on:
     branches: [ master ]
   schedule:
     # Runs at 01:00 UTC (9:00 AM Beijing) every day
-    - cron:  '0 1 * * *'
+    - cron:  '0 */8 * * *'
   workflow_dispatch:
 
 jobs:
