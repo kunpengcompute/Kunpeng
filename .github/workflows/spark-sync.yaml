@@ -1,4 +1,4 @@
-name: Sync upstream Spark job
+name: Sync upstream Spark job test
 
 on:
   pull_request:
