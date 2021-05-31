@@ -43,6 +43,12 @@ Welcome to the Kunpeng compute community.
 | [kubernetes](https://github.com/kunpengcompute/kubernetes) | Production-grade container scheduling and management |  |
 | [arm-landscape](https://github.com/kunpengcompute/arm-landscape) | Track Arm CI landscape status for open source projects, including areas like big data, database, web, cloud, AI, etc. |  |
 | [Kbox](https://github.com/kunpengcompute/Kbox) | Android SELinux patches for the Kbox solution. | @Bessel-Native @ZhaoPengyuan-suffix @KnifeeOneOne |
+| [android-qemu](https://github.com/kunpengcompute/android-qemu) | Client libraries for the Android emulator. | @zhanghuaping-1 @Luowentong |
+| [goldfish-opengl](https://github.com/kunpengcompute/goldfish-opengl) | Server libraries for the Android emulator. | @liushilong1991 @Luowentong |
+| [mesa](https://github.com/kunpengcompute/mesa) | Mesa 3D graphics library. | @zhanghuaping-1 @Luowentong |
+| [llvm](https://github.com/kunpengcompute/llvm) | The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. | @zhanghuaping-1 @Luowentong |
+| [libdrm](https://github.com/kunpengcompute/libdrm) | libdrm Direct Rendering Manager library and headers. | @zhanghuaping-1 @Luowentong |
+| [vmi](https://github.com/kunpengcompute/vmi) | Deployment script and configuration file for the instruction cloud phone. | @zhanghuaping-1 @Luowentong |
 
 ## Security
 The Kunpeng Compute community attaches great importance to the community version security. The security team of Kunpeng Compute community is responsible for receiving, investigating, and disclosing security vulnerabilities related to the community. The reported security issues or vulnerabilities will be quickly analyzed and resolved by Kunpeng Compute security team.
