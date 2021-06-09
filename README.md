@@ -43,6 +43,7 @@ Welcome to the Kunpeng compute community.
 | [kubernetes](https://github.com/kunpengcompute/kubernetes) | Production-grade container scheduling and management |  |
 | [arm-landscape](https://github.com/kunpengcompute/arm-landscape) | Track Arm CI landscape status for open source projects, including areas like big data, database, web, cloud, AI, etc. |  |
 | [Kbox](https://github.com/kunpengcompute/Kbox) | Android SELinux patches for the Kbox solution. | @Bessel-Native @ZhaoPengyuan-suffix @KnifeeOneOne |
+| [ftca](https://github.com/kunpengcompute/ftca) | Computing Product Compatibility Checker, used to check the compatibility of OSs and parts | @ZijunYin |
 | [android-qemu](https://github.com/kunpengcompute/android-qemu) | Client libraries for the Android emulator. | @zhanghuaping-1 @Luowentong |
 | [goldfish-opengl](https://github.com/kunpengcompute/goldfish-opengl) | Server libraries for the Android emulator. | @liushilong1991 @Luowentong |
 | [mesa](https://github.com/kunpengcompute/mesa) | Mesa 3D graphics library. | @zhanghuaping-1 @Luowentong |
