@@ -3,7 +3,7 @@ name: Sync upstream MariaDB/server job
 on:
   pull_request:
     paths:
-    - '.github/workflows/**'
+    - '.github/workflows/sync-mariadb.yml'
     # Runs at every pull requests submitted in master branch 
     branches: [ master ]
   schedule:
