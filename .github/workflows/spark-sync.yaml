@@ -3,7 +3,7 @@ name: Sync upstream Spark job
 on:
   pull_request:
     paths:
-    - '.github/workflows/**'
+    - '.github/workflows/spark-sync.yaml'
     # Runs at every pull requests submitted in master branch 
     branches: [ master ]
   schedule:
