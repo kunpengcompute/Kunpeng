@@ -51,6 +51,8 @@ Welcome to the Kunpeng compute community.
 | [libdrm](https://github.com/kunpengcompute/libdrm) | libdrm Direct Rendering Manager library and headers. | @zhanghuaping-1 @Luowentong |
 | [vmi](https://github.com/kunpengcompute/vmi) | Deployment script and configuration file for the instruction cloud phone. | @zhanghuaping-1 @Luowentong |
 | [media](https://github.com/kunpengcompute/media) | Adaptation of video codecs. | @wangning-dev @xs1994-maker |
+| [omnidata-openlookeng-connector](https://github.com/kunpengcompute/omnidata-openlookeng-connector) | Near-data processing package for openLooKeng. | @tushengxia |
+| [omnidata-spark-connector](https://github.com/kunpengcompute/omnidata-spark-connector) | Near-data processing package for Spark SQL. | @wenxuanguan |
 
 ## Security
 The Kunpeng Compute community attaches great importance to the community version security. The security team of Kunpeng Compute community is responsible for receiving, investigating, and disclosing security vulnerabilities related to the community. The reported security issues or vulnerabilities will be quickly analyzed and resolved by Kunpeng Compute security team.
