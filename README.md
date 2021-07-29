@@ -53,7 +53,7 @@ Welcome to the Kunpeng compute community.
 | [media](https://github.com/kunpengcompute/media) | Adaptation of video codecs. | @wangning-dev @xs1994-maker |
 | [omnidata-openlookeng-connector](https://github.com/kunpengcompute/omnidata-openlookeng-connector) | Near-data processing package for openLooKeng. | @tushengxia |
 | [omnidata-spark-connector](https://github.com/kunpengcompute/omnidata-spark-connector) | Near-data processing package for Spark SQL. | @wenxuanguan |
-
+| [hpc-tuning-patches](https://github.com/kunpengcompute/hpc-tuning-patches) | "hpc-tuning-patches" is a series of KunPeng optimization patches for open-source software. Users can get better performance with these patches. | @qinluyao761 |
 ## Security
 The Kunpeng Compute community attaches great importance to the community version security. The security team of Kunpeng Compute community is responsible for receiving, investigating, and disclosing security vulnerabilities related to the community. The reported security issues or vulnerabilities will be quickly analyzed and resolved by Kunpeng Compute security team.
 
