@@ -28,5 +28,4 @@ jobs:
         account_type: org
         timeout: 600
         debug: true
-        force_update: true
-        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres"
+        static_list: "mysql-server"
