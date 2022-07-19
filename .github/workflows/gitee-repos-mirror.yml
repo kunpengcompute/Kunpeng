@@ -18,6 +18,18 @@ jobs:
 
     steps:
 
+    - name: Mirror the Gitee organization repos to Github.
+      uses: Yikun/hub-mirror-action@v1.0
+      with:
+        src: gitee/kunpengcompute
+        dst: github/kunpengcompute
+        dst_key: ${{ secrets.HUB_PRIVATE_KEY }}
+        dst_token:  ${{ secrets.GITHUB_TOKEN }}
+        account_type: org
+        timeout: 600
+        debug: true
+        static_list: "boostkit-bigdata"
+
     - name: Mirror the Github organization repos to Gitee.
       uses: Yikun/hub-mirror-action@v1.0
       with:
@@ -29,7 +41,7 @@ jobs:
         timeout: 600
         debug: true
         force_update: true
-        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,ceph-global-cache-adaptor"
+        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,ceph-global-cache-adaptor,boostkit-bigdata"
     - name: Debug repo owner
       run: |
         echo ${{ github.repository_owner }}
