@@ -31,6 +31,7 @@ jobs:
         static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib"
 
     - name: Mirror the Github organization repos to Gitee.
+      if: always()
       uses: Yikun/hub-mirror-action@v1.0
       with:
         src: github/kunpengcompute
@@ -41,7 +42,7 @@ jobs:
         timeout: 600
         debug: true
         force_update: true
-        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,ceph-global-cache-adaptor,boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib"
+        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib"
     - name: Debug repo owner
       run: |
         echo ${{ github.repository_owner }}
