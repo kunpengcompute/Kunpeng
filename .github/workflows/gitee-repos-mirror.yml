@@ -31,6 +31,7 @@ jobs:
         static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib"
 
     - name: Mirror the Github organization repos to Gitee.
+      if: always()
       uses: Yikun/hub-mirror-action@v1.0
       with:
         src: github/kunpengcompute
