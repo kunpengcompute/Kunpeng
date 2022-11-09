@@ -18,7 +18,7 @@ jobs:
 
     steps:
 
-    - name: Mirror the Gitee organization repos to Github.
+    - name: Mirror the Gitee organization repos to Github
       uses: Yikun/hub-mirror-action@v1.0
       with:
         src: gitee/kunpengcompute
@@ -30,7 +30,7 @@ jobs:
         debug: true
         static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor"
 
-    - name: Mirror the Github organization repos to Gitee.
+    - name: Mirror the Github organization repos to Gitee
       if: always()
       uses: Yikun/hub-mirror-action@v1.0
       with:
