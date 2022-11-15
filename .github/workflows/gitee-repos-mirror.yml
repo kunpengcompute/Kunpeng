@@ -13,8 +13,6 @@ on:
 
 jobs:
   build:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
 
     steps:
@@ -25,7 +23,7 @@ jobs:
         src: gitee/kunpengcompute
         dst: github/kunpengcompute
         dst_key: ${{ secrets.HUB_PRIVATE_KEY }}
-        dst_token:  ${{ secrets.GITHUB_TOKEN }}
+        dst_token:  ${{ secrets.HUB_TOKEN }}
         account_type: org
         timeout: 600
         debug: true
