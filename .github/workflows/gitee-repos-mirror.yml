@@ -13,7 +13,8 @@ on:
 
 jobs:
   build:
-
+    permissions:
+      repository-projects: write
     runs-on: ubuntu-latest
 
     steps:
