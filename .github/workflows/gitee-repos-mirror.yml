@@ -27,7 +27,7 @@ jobs:
         account_type: org
         timeout: 600
         debug: true
-        static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media"
+        static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg"
 
     - name: Mirror the Github organization repos to Gitee.
       if: always()
@@ -41,7 +41,7 @@ jobs:
         timeout: 600
         debug: true
         force_update: true
-        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,ceph-global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media"
+        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,ceph-global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg"
     - name: Debug repo owner
       run: |
         echo ${{ github.repository_owner }}
