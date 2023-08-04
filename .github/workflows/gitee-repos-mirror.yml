@@ -27,6 +27,7 @@ jobs:
         account_type: org
         timeout: 600
         debug: true
+        force_update: true
         static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg,hucx"
 
     - name: Mirror the Github organization repos to Gitee.
