@@ -1,4 +1,4 @@
-name: Gitee repos mirror periodic job
+name: Gitee repos mirror periodic job test
 
 on:
   pull_request:
