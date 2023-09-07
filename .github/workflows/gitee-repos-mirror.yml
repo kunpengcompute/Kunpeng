@@ -17,19 +17,6 @@ jobs:
 
     steps:
 
-    - name: Mirror the Gitee organization repos to Github.
-      uses: Yikun/hub-mirror-action@v1.3
-      with:
-        src: gitee/kunpengcompute
-        dst: github/kunpengcompute
-        dst_key: ${{ secrets.HUB_PRIVATE_KEY }}
-        dst_token:  ${{ secrets.HUB_TOKEN }}
-        account_type: org
-        timeout: 600
-        debug: true
-        force_update: true
-        static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg,hucx"
-
     - name: Mirror the Github organization repos to Gitee.
       if: always()
       uses: Yikun/hub-mirror-action@v1.3
@@ -41,9 +28,4 @@ jobs:
         account_type: org
         timeout: 600
         debug: true
-        force_update: true
-        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,ceph-global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg,hucx"
-    - name: Debug repo owner
-      run: |
-        echo ${{ github.repository_owner }}
-        echo ${{ github.actor }}
+        static_list: "devkitdict"
