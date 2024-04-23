@@ -28,7 +28,7 @@ jobs:
         timeout: 600
         debug: true
         force_update: true
-        static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg,hucx,ceph,bcache,global-cache-adaptor,kps,hyperscan"
+        static_list: "boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg,hucx,ceph,bcache,global-cache-adaptor,kps,hyperscan,HW265"
 
     - name: Mirror the Github organization repos to Gitee.
       if: always()
@@ -42,7 +42,7 @@ jobs:
         timeout: 600
         debug: true
         force_update: true
-        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,ceph-global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg,hucx,ceph,bcache,global-cache-adaptor,kps,hyperscan"
+        black_list: "mysql-server,kunpeng-mpam,hadoop,kunpengcompute.github.io,spark,spark-website,server,postgres,boostkit-bigdata,Spark-ml-algo-lib,Spark-graph-algo-lib,global-cache-adaptor,ceph-global-cache-adaptor,vmi,hmpi,Kbox,KAEdriver,KAE,KAEzip,android-qemu,goldfish-opengl,mesa,llvm,libdrm,media,xucg,hucx,ceph,bcache,global-cache-adaptor,kps,hyperscan,HW265"
     - name: Debug repo owner
       run: |
         echo ${{ github.repository_owner }}
