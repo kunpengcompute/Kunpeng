@@ -32,7 +32,7 @@ jobs:
 
     - name: Mirror the Github organization repos to Gitee.
       if: always()
-      uses: Yikun/hub-mirror-action@v1.3
+      uses: Yikun/hub-mirror-action@v1.4
       with:
         src: github/kunpengcompute
         dst: gitee/kunpengcompute
